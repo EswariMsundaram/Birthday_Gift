@@ -1,0 +1,100 @@
+body
+{
+    background:linear-gradient(black,blue);
+}
+#pic
+{
+    width:150px;
+    height: 150px;
+    border-radius: 100%;
+    align-items: center;
+    border: 5px solid  #efb0c9;
+
+}
+h1,h2,h3,h4,h5
+{
+    font-family: "Happy Monkey", system-ui;
+    font-style: normal;
+    text-shadow: 0px 0px 1px black;
+    text-align: center;
+    color:#ffffff;
+    line-height: 0px;
+}
+#style
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+ 
+}
+#bday-age,#bday-date
+{
+    border:2px solid #efb0c9;
+    border-radius: 5px;
+    padding:5px;
+    background-color:#efb0c9;
+}
+#footer
+{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+a
+{
+    color: white;
+    font-style: italic;
+}
+.gift-section
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.gift
+{
+    width:400px;
+    height:400px;
+    background-image: url("gift.jpg");
+    border:5px solid white;
+    border-radius:5px;
+    margin-bottom: 50px;
+}
+#gift1
+{
+    height:300px;
+    width:350px;
+}
+#gift1:hover
+{
+    background-image:url("golden-retriever-dog.gif");
+    background-size:contain;
+}
+#gift2:hover
+{
+    background-image:url("lee-know-surprise.gif");
+    background-size:contain;
+}
+#gift3
+{
+    height: 250px;
+    width:350px;
+}
+#gift3:hover
+{
+    background-image:url("ur-the-best.gif");
+    background-size:auto;
+}
+#gift4
+{
+    height: 210px;
+}
+#gift4:hover
+{
+    background-image:url("little-rascals.gif");
+    background-size:auto;
+}
+#gift-cheer:hover
+{
+    background-image: url("surprise-cheer.gif");
+    background-size:cover;
+}
